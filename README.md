@@ -15,7 +15,7 @@ This project implements a robust and scalable multithreaded TCP echo server in J
 The server listens on a TCP port and handles each incoming client connection using a thread from a fixed thread pool. The client sends messages to the server, and the server responds with an echo of each message. Logging is implemented with precise timestamps and client IP tracking. Graceful shutdown is supported, ensuring resource cleanup when the server receives a termination signal (e.g., `Ctrl+C`).
 The client supports interactive input and maintains an open session until the user types `exit`. Multiple clients can connect simultaneously, demonstrating the server’s concurrent handling capabilities. The code is modular and can be extended for further use cases such as command-based protocols or structured message handling.
 
---
+---
 
 ## Features
 
@@ -82,7 +82,7 @@ The server will start listening on port `8010`.
 
 In separate terminal windows, run the client:
 
-java AdvancedClient
+`java AdvancedClient`
 
 
 Each client will connect, send messages, and receive echoed responses. To close a client session, type:

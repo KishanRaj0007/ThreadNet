@@ -95,24 +95,24 @@ This project was tested with multiple concurrent clients. Each client sends mult
 
 Logs include timestamps, client IPs, incoming messages, and disconnect notices.
 
-![Screenshot](test_logs/server_log.png)
+![Screenshot](ThreadPool/test_logs/server_log.png)
 
 ### Client 1 Output
 
 Client connects to the server, sends messages, and receives echoed responses.
 
-![Screenshot](test_logs/client1.png)
+![Screenshot](ThreadPool/test_logs/client1.png)
 
 ### Client 2 Output
 
 Another client connects simultaneously and interacts with the server independently.
 
-![Screenshot](test_logs/client2.png)
+![Screenshot](ThreadPool/test_logs/client2.png)
 
 ### Graceful Shutdown Log
 
 The server shuts down cleanly on termination signal (`Ctrl+C`), releasing the server socket and thread pool.
 
-![Screenshot](test_logs/shutdown.png)
+![Screenshot](ThreadPool/test_logs/shutdown.png)
 
 ---

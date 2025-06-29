@@ -42,6 +42,7 @@ The client supports interactive input and maintains an open session until the us
 
 ## Project Structure
 
+```
 MultithreadedWebServer-master/
 ├── singleThreaded/
 │ ├── Server.java
@@ -57,6 +58,7 @@ MultithreadedWebServer-master/
 │ ├── client2.png
 │ └── server_log.png
 └── README.md
+```
 
 ---
 
